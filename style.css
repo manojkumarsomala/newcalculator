@@ -104,6 +104,20 @@ button:hover {
   gap: 0.25rem;
 }
 
+.backspace {
+  width: 50px;
+}
+
+svg {
+  fill: rgb(89, 34, 195);
+  width: 50px;
+  height: 50px;
+}
+
+svg:hover {
+  cursor: pointer;
+  fill: rgb(163, 128, 232);
+}
 h3 {
   color: rgb(89, 34, 195);
   font-weight: normal;
