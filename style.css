@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100vh;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 250px;
+}
+
+#display {
+  width: 250px;
+  padding-block: 1rem;
+  border: 1px solid
+    linear-gradient(45deg, hsl(260, 70%, 45%) 0%, hsl(104, 61%, 45%) 100%);
+  padding-inline: 2px;
+  font-size: 1.5rem;
+  background: hsl(260, 70%, 95%);
+  padding-inline: 0.5rem;
+}
+
+#calculator {
+  width: 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  border: none;
+  background: hsl(260, 70%, 95%);
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(260, 70%, 45%);
+  color: white;
+}
+
+.gradient-bg {
+  color: white;
+  background: rgb(89, 34, 195);
+  background: linear-gradient(
+    45deg,
+    hsl(260, 70%, 45%) 0%,
+    hsl(104, 61%, 45%) 100%
+  );
+
+  background: rgb(178, 131, 245);
+  background: linear-gradient(
+    1deg,
+    rgba(178, 131, 245, 1) 15%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  /* background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%
+  ); */
+
+  background: rgb(34, 177, 195);
+  background: linear-gradient(
+    45deg,
+    rgba(34, 177, 195, 1) 0%,
+    rgba(51, 187, 45, 1) 100%
+  );
+}
+
+.gradient-bg:hover {
+  background: hsl(260, 70%, 55%);
+  background: linear-gradient(
+    45deg,
+    hsl(260, 70%, 55%) 0%,
+    hsl(104, 61%, 55%) 100%
+  );
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+h3 {
+  color: rgb(89, 34, 195);
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+}
+
+.email {
+  color: rgb(89, 34, 195);
+}
+
+/* button:nth-of-type() {
+  background-color: brown;
+  color: aqua;
+} */
+
+.red-bg {
+  background: red;
+}
+
+.orange {
+  background: orange;
+}
+
+/* background: rgb(178, 131, 245);
+  background: linear-gradient(
+    1deg,
+    rgba(178, 131, 245, 1) 15%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+
+/* background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%
+  ); */
+
+/* background: rgb(34, 177, 195);
+  background: linear-gradient(
+    45deg,
+    rgba(34, 177, 195, 1) 0%,
+    rgba(51, 187, 45, 1) 100%
+  ); */
